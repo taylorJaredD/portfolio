@@ -1,0 +1,54 @@
+main {
+  margin: 10 auto;
+}
+body {
+  /* background: #395645; */
+}
+#grad {
+  background: white;
+  background: linear-gradient(#FFFFFF, #BFBFBF);
+}
+
+h2 {
+  color: black;
+  font-family: Georgia, sans-serif;
+  font-size: 20px;
+}
+img {
+  height: 150px;
+  margin: 10px;
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+p {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px 20% 5px 20%;
+  background: #9F9F9F;
+  overflow: hidden;
+}
+li {
+  display: inline;
+  padding: 0px 2px 0px 2px;
+  color: white;
+}
+.section {
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+.intro-text {
+  margin: auto;
+}
+footer {
+  /* text-align: center; */
+  font-size: 15px;
+  background: #9F9F9F;
+}
