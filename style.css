@@ -1,12 +1,14 @@
 main {
-  margin: 10 auto;
+  margin: 0;
+  padding: 5px 5% 5px 5%;
+  background: linear-gradient(#FFFFFF, #BFBFBF);
 }
 body {
   /* background: #395645; */
+  margin: 0;
 }
 #grad {
   background: white;
-  background: linear-gradient(#FFFFFF, #BFBFBF);
 }
 
 h2 {
@@ -15,10 +17,12 @@ h2 {
   font-size: 20px;
 }
 img {
-  height: 150px;
   margin: 10px;
   border: 3px solid gray;
   border-radius: 20px;
+}
+#profile {
+  height: 200px;
 }
 p {
   color: black;
